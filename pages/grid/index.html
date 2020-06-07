@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grid</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Crimson+Text:400i,700i%7CMontserrat:300,400,700%7COpen+Sans:400,700%7CRoboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="/common.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/static/fonts/oswald.css" />
+  <link rel="icon" type="image/png" href="/static/images/icon.png">
+</head>
+
+<body>
+  <header class="header container">
+  <a href="/index.html">
+    <img class="header__logo" src="/static/images/logo.svg" alt="logo" />
+  </a>
+  <button class="header__link header__menu header__menu_js">Menu</button>
+  <nav class="header__nav">
+    <ul class="header__list header__list-media list-none">
+      <li><a class="header__link" href="/pages/Blog/index.html">Blog</a></li>
+      <li><a class="header__link" href="/pages/Catalog/index.html">Catalog</a></li>
+      <li><a class="header__link" href="/pages/Toys/index.html">Toys</a></li>
+      <li><a class="header__link" href="/pages/Animation/index.html">Animation</a></li>
+      <li><a class="header__link" href="/pages/svg/index.html">svg</a></li>
+      <li><a class="header__link" href="/pages/Grid/index.html">Grid</a></li>
+    </ul>
+    <ul class="header__list list-none">
+      <li><img class="header__search" src="/static/images/search.png" alt="search" /></li>
+      <li><a class="header__link header__link_cont" href="/pages/Contact us/index.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="mobile-header mobile-header_js">
+    <div class="mobile-header__content">
+      <nav class="mobile-header__nav container">
+        <a href="/index.html">
+          <img class="mobile-header__logo" src="/static/images/logo.svg" alt="logo" />
+        </a>
+        <button class="mobile-header__button mobile-header__button_js">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M0.707105 0L0 0.707105L7.07111 7.77821L4.6869e-05 14.8493L0.707151 15.5564L7.77821 8.48532L14.8492 15.5563L15.5563 14.8492L8.48532 7.77821L15.5563 0.707178L14.8492 7.33696e-05L7.77821 7.07111L0.707105 0Z"
+              fill="#1E0606" />
+          </svg>
+        </button>
+        <img class="mobile-header__search" src="/static/images/search.png" alt="search" />
+      </nav>
+      <ul class="mobile-header__list list-none">
+        <li><a class="mobile-header__link" href="/pages/Blog/index.html">Blog</a></li>
+        <li><a class="mobile-header__link" href="/pages/Catalog/index.html">Catalog</a></li>
+        <li><a class="mobile-header__link" href="/pages/Toys/index.html">Toys</a></li>
+        <li><a class="mobile-header__link" href="/pages/Animation/index.html">Animation</a></li>
+        <li><a class="mobile-header__link" href="/pages/svg/index.html">svg</a></li>
+        <li><a class="mobile-header__link" href="/pages/Grid/index.html">Grid</a></li>
+        <li><a class="mobile-header__link mobile-header__link_bold" href="/pages/Contact us/index.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+  <main>
+    <h1 class="title container">
+  grid
+</h1>
+
+<div class="navigation container">
+  <a class="navigation__tab" href="/index.html">Home</a>
+  <img src="/static/images/br.png" alt=">">
+  <a class="navigation__tab navigation__tab_passive">grid</a>
+</div>
+
+    <div class="grid">
+      <div class="grid__box grid__box_1">
+        <div class="one">
+          <div class="one__text">
+            <span class="one__label">IPHONE 6S</span>
+            <span class="one__stats">3D Touch. 12MP photos. 4K video. One powerful phone</span>
+            <span class="one__more">Learn more or visit an Apple Store today</span>
+          </div>
+          <img class="one__image" src="/static/images/phone.jpg" alt="">
+        </div>
+      </div>
+      <div class="grid__box grid__box_2">
+        <div class="two">
+          <span class="two__more">LEARN MORE</span>
+          <span class="two__label">How to Use Rotary Evaporator in Chemical Labs</span>
+          <a href="#" class="two__link">Download now</a>
+        </div>
+      </div>
+      <div class="grid__box grid__box_3">
+        <div class="three">
+          <img class="three__image" src="/static/images/keyboard.svg" alt="">
+          <span class="three__label">Our Brand New Keyboard</span>
+          <a href="#" class="three__link">LEARN ›</a>
+        </div>
+      </div>
+      <div class="grid__box grid__box_4">
+        <div class="four">
+          <div class="four__text">
+            <span class="four__label">IMAC.RETINA</span>
+            <span class="four__pass">Hardly a month passes these days where</span>
+          </div>
+          <div class="four__description">
+            <span class="four__description-text">Apple may be experimenting in the virtual reality space. The company
+              has
+              been granted a patent for a head-mounted virtual reality device that would use the iPhone screen as the
+              display.</span>
+            <a href="#" class="four__link">DOWNLOAD NOW ›</a>
+          </div>
+          <div class="four__picture">
+            <img src="/static/images/mac.jpg" alt="" class="four__image">
+          </div>
+        </div>
+      </div>
+      <div class="grid__box grid__box_5">
+        <div class="five">
+          <div class="five__wrapper">
+            <button class="purple-button"><span class="button-textp">POPULAR</span></button>
+            <img src="/static/images/disk.svg" alt="" class="five__image">
+            <span class="five__meet">meet</span>
+          </div>
+          <span class="five__label">iCloud</span>
+          <span class="five__text">With iCloud, you always have the latest versions of your most important things — like
+            documents, apps, notes, and contacts — on whatever device you’re using.</span>
+          <button class="yellow-button"> <span class="button-texty">LEARN MORE</span></button>
+        </div>
+      </div>
+      <div class="grid__box grid__box_6">
+        <div class="six">
+          <span class="six__label">Much MuchBetter Experience</span>
+          <picture>
+            <source srcset="/static/images/tablet-tablet.png" media="(max-width: 768px)">
+            <source srcset="/static/images/tablet.png">
+            <img class="six__image" src="/static/images/tablet.png" alt="" />
+          </picture>
+        </div>
+      </div>
+      <div class="grid__box grid__box_7">
+        <div class="seven">
+          <img class="seven__image" src="/static/images/device.png" alt="">
+          <span class="seven__label">Games ourpasion</span>
+          <a href="#" class="seven__link">LEARN ›</a>
+        </div>
+      </div>
+      <div class="grid__box grid__box_8">
+        <div class="eight">
+          <img class="eight__image" src="/static/images/ins.svg" alt="">
+          <a href="#" class="eight__link">Follow me ›</a>
+        </div>
+      </div>
+      <div class="grid__box grid__box_9">
+        <div class="nine">
+          <img src="/static/images/tv.png" alt="" class="nine__image">
+          <span class="nine__text">More than just a display, it’s a vision</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+  <div class="content container">
+    <ul class="content__information list-none">
+      <li class="content__block content__block_left">
+        <p class="content__title">Navigation</p>
+        <ul class="list-none content__list">
+          <li><a class="content__link" href="#">About Us</a></li>
+          <li><a class="content__link" href="#">Blog</a></li>
+          <li><a class="content__link" href="#">Design Services</a></li>
+          <li><a class="content__link" href="#">Featured On</a></li>
+          <li><a class="content__link" href="#">2018 Holiday Catalog</a></li>
+          <li><a class="content__link" href="#">Shop By Designer</a></li>
+        </ul>
+      </li>
+      <li class="content__block content__block_centre">
+        <p class="content__title">Customer Information</p>
+        <ul class="list-none content__list">
+          <li><a class="content__link" href="#">Contact Us</a></li>
+          <li><a class="content__link" href="#">Sale Exclusions</a></li>
+          <li><a class="content__link" href="#">Shipping & Returns</a></li>
+          <li><a class="content__link" href="#">Terms & Conditions</a></li>
+          <li><a class="content__link" href="#">Privacy Policy</a></li>
+          <li><a class="content__link" href="#">Search</a></li>
+        </ul>
+      </li>
+      <li class="content__block content__block_right">
+        <p class="content__title">Connect</p>
+        <form class="content__form" name="text" method="POST" action="">
+          <input class="content__mail" type="email" placeholder="Email">
+          <button type="submit" class="button @@add-class button_black"><span class="button-text">Join</span></button>
+        </form>
+        <ul class="content__soc list-none">
+          <li>
+            <a class="content__soc-link" href="#"><img src="/static/images/f.svg" alt="facebook" /></a>
+          </li>
+          <li>
+            <a class="content__soc-link" href="#"><img src="/static/images/twit.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a class="content__soc-link" href="#"><img src="/static/images/p.svg" alt="p" /></a>
+          </li>
+          <li>
+            <a class="content__soc-link" href="#"><img src="/static/images/inst.svg" alt="instagram" /></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <ul class="add-inf list-none">
+      <li class="add-inf__block add-inf__block_mobile-1">
+        <p class="add-inf__text">Company Rating</p>
+        <input type="radio" id="star1" name="stars" class="add-inf__star-check">
+        <input type="radio" id="star2" name="stars" class="add-inf__star-check">
+        <input type="radio" id="star3" name="stars" class="add-inf__star-check">
+        <input type="radio" id="star4" name="stars" class="add-inf__star-check">
+        <input type="radio" id="star5" name="stars" class="add-inf__star-check">
+        <div class="add-inf__stars list-none">
+          <label for="star1" class="add-inf__star"></label>
+          <label for="star2" class="add-inf__star"></label>
+          <label for="star3" class="add-inf__star"></label>
+          <label for="star4" class="add-inf__star"></label>
+          <label for="star5" class="add-inf__star"></label>
+        </div>
+      </li>
+      <li class="add-inf__block add-inf__block_mobile-2">
+        <p class="add-inf__text">Copyright © 2018 Dlk • Design Life Kids</p>
+      </li>
+      <li class="add-inf__block add-inf__block_mobile-2">
+        <a class="add-inf__link" href="#">Web Design — Direct Line Development</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+  <script src="index.js"></script>
+</body>
+
+</html>

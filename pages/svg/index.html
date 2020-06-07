@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SVG Animation</title>
+  <link
+    href="https://fonts.googleapis.com/css?family=Crimson+Text:400i,700i%7CMontserrat:300,400,700%7COpen+Sans:400,700%7CRoboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="/common.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/static/fonts/oswald.css" />
+  <link rel="icon" type="image/png" href="/static/images/icon.png">
+</head>
+
+<body>
+  <header class="header container">
+  <a href="/index.html">
+    <img class="header__logo" src="/static/images/logo.svg" alt="logo" />
+  </a>
+  <button class="header__link header__menu header__menu_js">Menu</button>
+  <nav class="header__nav">
+    <ul class="header__list header__list-media list-none">
+      <li><a class="header__link" href="/pages/Blog/index.html">Blog</a></li>
+      <li><a class="header__link" href="/pages/Catalog/index.html">Catalog</a></li>
+      <li><a class="header__link" href="/pages/Toys/index.html">Toys</a></li>
+      <li><a class="header__link" href="/pages/Animation/index.html">Animation</a></li>
+      <li><a class="header__link" href="/pages/svg/index.html">svg</a></li>
+      <li><a class="header__link" href="/pages/Grid/index.html">Grid</a></li>
+    </ul>
+    <ul class="header__list list-none">
+      <li><img class="header__search" src="/static/images/search.png" alt="search" /></li>
+      <li><a class="header__link header__link_cont" href="/pages/Contact us/index.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="mobile-header mobile-header_js">
+    <div class="mobile-header__content">
+      <nav class="mobile-header__nav container">
+        <a href="/index.html">
+          <img class="mobile-header__logo" src="/static/images/logo.svg" alt="logo" />
+        </a>
+        <button class="mobile-header__button mobile-header__button_js">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M0.707105 0L0 0.707105L7.07111 7.77821L4.6869e-05 14.8493L0.707151 15.5564L7.77821 8.48532L14.8492 15.5563L15.5563 14.8492L8.48532 7.77821L15.5563 0.707178L14.8492 7.33696e-05L7.77821 7.07111L0.707105 0Z"
+              fill="#1E0606" />
+          </svg>
+        </button>
+        <img class="mobile-header__search" src="/static/images/search.png" alt="search" />
+      </nav>
+      <ul class="mobile-header__list list-none">
+        <li><a class="mobile-header__link" href="/pages/Blog/index.html">Blog</a></li>
+        <li><a class="mobile-header__link" href="/pages/Catalog/index.html">Catalog</a></li>
+        <li><a class="mobile-header__link" href="/pages/Toys/index.html">Toys</a></li>
+        <li><a class="mobile-header__link" href="/pages/Animation/index.html">Animation</a></li>
+        <li><a class="mobile-header__link" href="/pages/svg/index.html">svg</a></li>
+        <li><a class="mobile-header__link" href="/pages/Grid/index.html">Grid</a></li>
+        <li><a class="mobile-header__link mobile-header__link_bold" href="/pages/Contact us/index.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+  <main>
+    <h1 class="title container">
+  SVG animation
+</h1>
+
+<div class="navigation container">
+  <a class="navigation__tab" href="/index.html">Home</a>
+  <img src="/static/images/br.png" alt=">">
+  <a class="navigation__tab navigation__tab_passive">SVG</a>
+</div>
+    <section class="container">
+      <svg class="svg" width="418" height="351" viewBox="0 0 418 351" fill="none">
+        <path d="M 0 15 
+          C 0 5.5 5.5 0 15 0
+          L 403 0
+          C 412.5 0 418 5.5 418 15
+          L 418 27
+          L 0 27
+          Z" fill="#CCD1D9"></path>
+        <rect x="0" y="27" width="23" height="324" fill="#545C66"></rect>
+        <rect x="22" y="27" width="187" height="324" fill="#656D78"></rect>
+        <line class="svg__line-left" x1="47" y1="54" x2="176" y2="54" stroke-width="14" stroke-linecap="round"
+          stroke="#5D9CEC"></line>
+        <line class="svg__line-right" x1="60" y1="81" x2="190" y2="81" stroke-width="14" stroke-linecap="round"
+          stroke="#A0D468"></line>
+        <line class="svg__line-left" x1="74" y1="108" x2="102" y2="108" stroke-width="14" stroke-linecap="round"
+          stroke="#ED5565"></line>
+        <line class="svg__line-right" x1="128" y1="108" x2="209" y2="108" stroke-width="14" stroke-linecap="round"
+          stroke="#ED5565"></line>
+        <line class="svg__line-left" x1="87" y1="135" x2="209" y2="135" stroke-width="14" stroke-linecap="round"
+          stroke="#FFCE54"></line>
+        <line class="svg__line-right" x1="87" y1="161" x2="163" y2="161" stroke-width="14" stroke-linecap="round"
+          stroke="#CCD1D9"></line>
+        <line class="svg__line-left" x1="87" y1="188" x2="109" y2="188" stroke-width="14" stroke-linecap="round"
+          stroke="#CCD1D9"></line>
+        <line class="svg__line-right" x1="134" y1="188" x2="209" y2="188" stroke-width="14" stroke-linecap="round"
+          stroke="#CCD1D9"></line>
+        <line class="svg__line-left" x1="87" y1="215" x2="209" y2="215" stroke-width="14" stroke-linecap="round"
+          stroke="#CCD1D9"></line>
+        <line class="svg__line-right" x1="87" y1="242" x2="176" y2="242" stroke-width="14" stroke-linecap="round"
+          stroke="#FFCE54"></line>
+        <line class="svg__line-left" x1="74" y1="269" x2="136" y2="269" stroke-width="14" stroke-linecap="round"
+          stroke="#ED5565"></line>
+        <line class="svg__line-right" x1="60" y1="296" x2="156" y2="296" stroke-width="14" stroke-linecap="round"
+          stroke="#A0D468"></line>
+        <line class="svg__line-left" x1="47" y1="323" x2="89" y2="323" stroke-width="14" stroke-linecap="round"
+          stroke="#5D9CEC"></line>
+        <rect x="209" y="27" width="209" height="324" fill="#E6E9ED"></rect>
+        <path class="svg__sky" d="M 209 47
+        L 391 47
+        C 395 47 398 50 398 54
+        L 398 162
+        C 398 166 395 169 391 169
+        L 209 169
+        Z" fill="#5D9CEC"></path>
+        <path class="svg__mountain-1" d="M 226 169
+        L 273.17 114.47
+        C 274.54 112.96 275.56 113 276 113
+        C 276.44 113 277.46 112.96 278.93 114.47
+        L 328.5 169
+        Z" fill="#545C66"></path>
+        <path class="svg__mountain-2" d="M 262.5 169
+        L 319.13 95
+        C 321 92.94 322.4 93 323 93
+        C 323.6 93 325 92.94 327 95
+        L 385.5 169
+        Z" fill="#656D78"></path>
+        <rect class="svg__sky" x="229" y="188" rx="5" ry="5" width="169" height="88" fill="#5D9CEC">
+        </rect>
+        <circle class="svg__sun" cx="263" cy="215.5" r="11" fill="#FFCE54"></circle>
+        <path class="svg__mountain-3" d="M 273.5 276
+        L 302 236
+        C 303.75 234 305.9 234 306.5 234
+        C 307.1 234 309.25 234 311 236
+        L 338.5 276
+        Z" fill="#545C66"></path>
+        <path class="svg__mountain-4" d="M 300 276
+        L 339 223
+        C 340.75 221 342.91 221 343.5 221
+        C 344.1 221 346.25 221 348 223
+        L 386 276
+        Z" fill="#656D78"></path>
+        <line x1="235" y1="296" x2="391" y2="296" stroke-width="14" stroke-linecap="round" stroke="#CCD1D9"></line>
+        <line x1="235" y1="323" x2="317" y2="323" stroke-width="14" stroke-linecap="round" stroke="#CCD1D9"></line>
+      </svg>
+    </section>
+  </main>
+  <footer>
+  <div class="content container">
+    <ul class="content__information list-none">
+      <li class="content__block content__block_left">
+        <p class="content__title">Navigation</p>
+        <ul class="list-none content__list">
+          <li><a class="content__link" href="#">About Us</a></li>
+          <li><a class="content__link" href="#">Blog</a></li>
+          <li><a class="content__link" href="#">Design Services</a></li>
+          <li><a class="content__link" href="#">Featured On</a></li>
+          <li><a class="content__link" href="#">2018 Holiday Catalog</a></li>
+          <li><a class="content__link" href="#">Shop By Designer</a></li>
+        </ul>
+      </li>
+      <li class="content__block content__block_centre">
+        <p class="content__title">Customer Information</p>
+        <ul class="list-none content__list">
+          <li><a class="content__link" href="#">Contact Us</a></li>
+          <li><a class="content__link" href="#">Sale Exclusions</a></li>
+          <li><a class="content__link" href="#">Shipping & Returns</a></li>
+          <li><a class="content__link" href="#">Terms & Conditions</a></li>
+          <li><a class="content__link" href="#">Privacy Policy</a></li>
+          <li><a class="content__link" href="#">Search</a></li>
+        </ul>
+      </li>
+      <li class="content__block content__block_right">
+        <p class="content__title">Connect</p>
+        <form class="content__form" name="text" method="POST" action="">
+          <input class="content__mail" type="email" placeholder="Email">
+          <button type="submit" class="button @@add-class button_black"><span class="button-text">Join</span></button>
+        </form>
+        <ul class="content__soc list-none">
+          <li>
+            <a class="content__soc-link" href="#"><img src="/static/images/f.svg" alt="facebook" /></a>
+          </li>
+          <li>
+            <a class="content__soc-link" href="#"><img src="/static/images/twit.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a class="content__soc-link" href="#"><img src="/static/images/p.svg" alt="p" /></a>
+          </li>
+          <li>
+            <a class="content__soc-link" href="#"><img src="/static/images/inst.svg" alt="instagram" /></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <ul class="add-inf list-none">
+      <li class="add-inf__block add-inf__block_mobile-1">
+        <p class="add-inf__text">Company Rating</p>
+        <input type="radio" id="star1" name="stars" class="add-inf__star-check">
+        <input type="radio" id="star2" name="stars" class="add-inf__star-check">
+        <input type="radio" id="star3" name="stars" class="add-inf__star-check">
+        <input type="radio" id="star4" name="stars" class="add-inf__star-check">
+        <input type="radio" id="star5" name="stars" class="add-inf__star-check">
+        <div class="add-inf__stars list-none">
+          <label for="star1" class="add-inf__star"></label>
+          <label for="star2" class="add-inf__star"></label>
+          <label for="star3" class="add-inf__star"></label>
+          <label for="star4" class="add-inf__star"></label>
+          <label for="star5" class="add-inf__star"></label>
+        </div>
+      </li>
+      <li class="add-inf__block add-inf__block_mobile-2">
+        <p class="add-inf__text">Copyright © 2018 Dlk • Design Life Kids</p>
+      </li>
+      <li class="add-inf__block add-inf__block_mobile-2">
+        <a class="add-inf__link" href="#">Web Design — Direct Line Development</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+</body>
+
+</html>
